@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="../src/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Project_04</title>
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="grid-item item1 linear-wipe">
+      <p>Super Trader Bros</p>
+    </div>
+    <div class="grid-item item2">
+      <p>Login/Logout</p>
+      <input type="text" placeholder="username">
+      <input type="text" placeholder="password">
+    </div>
+    <div class="grid-item item3">
+      <input type="text" placeholder="Search...">
+      </br>
+      <button type="button" class="buy">Buy</button>
+      <button type="button" class="sell">Sell</button>
+    </div>
+    <div class="grid-item item4">
+      <table class="stockinfo">
+        <tr>
+          <th>Stock</th>
+          <th>Quantity</th>
+          <th>Value</th>
+          <th>Buy</th>
+          <th>Sell</th>
+        </tr>
+        <tr>
+          <td>Apple</td>
+          <td>50</td>
+          <td>$100</td>
+          <td><input type="radio"></td>
+          <td><input type="radio"></td>
+        </tr>
+        <tr>
+          <td>Microsoft</td>
+          <td>100</td>
+          <td>$75</td>
+          <td><input type="radio"></td>
+          <td><input type="radio"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="login"></div>
+
+  <div class="graph"></div>
+
+  <div id="root"></div>
+</body>
+<!-- <script>
+  let url =
+    "https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=aAjvdluwkvjvfpCUf21JSAve3fYMzCuG";
+  fetch(url).then(response => response.json()).then(data => {
+    console.log(data);
+  });
+</script> -->
+
+<!-- iex cloud - https://cloud.iexapis.com/stable/stock/aapl/intraday-prices?token= -->
+
+</html>

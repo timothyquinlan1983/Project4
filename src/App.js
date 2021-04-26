@@ -177,7 +177,7 @@ function App() {
         <>
             <div className={'grid grid-cols-12'}>
                 <div className={'col-span-12 border p-3'}>
-                    <h1 className={'text-2xl text-center font-bold'}>Paper Trader</h1>
+                    <h1 className={'text-2xl text-center font-bold'}></h1>
                 </div>
 
                 <div className={'col-span-12 md:col-span-6 border p-5'}>
